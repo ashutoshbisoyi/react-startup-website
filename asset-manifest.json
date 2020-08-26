@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-startup-website/static/css/main.c29a6cdd.chunk.css",
-    "main.js": "/react-startup-website/static/js/main.dcce29dc.chunk.js",
-    "main.js.map": "/react-startup-website/static/js/main.dcce29dc.chunk.js.map",
+    "main.js": "/react-startup-website/static/js/main.9a0f2885.chunk.js",
+    "main.js.map": "/react-startup-website/static/js/main.9a0f2885.chunk.js.map",
     "runtime-main.js": "/react-startup-website/static/js/runtime-main.971de796.js",
     "runtime-main.js.map": "/react-startup-website/static/js/runtime-main.971de796.js.map",
     "static/css/2.75c4ecca.chunk.css": "/react-startup-website/static/css/2.75c4ecca.chunk.css",
-    "static/js/2.6de24942.chunk.js": "/react-startup-website/static/js/2.6de24942.chunk.js",
-    "static/js/2.6de24942.chunk.js.map": "/react-startup-website/static/js/2.6de24942.chunk.js.map",
+    "static/js/2.30c54b56.chunk.js": "/react-startup-website/static/js/2.30c54b56.chunk.js",
+    "static/js/2.30c54b56.chunk.js.map": "/react-startup-website/static/js/2.30c54b56.chunk.js.map",
     "index.html": "/react-startup-website/index.html",
-    "precache-manifest.25127e636ceb9458f62d340b6c0e5a93.js": "/react-startup-website/precache-manifest.25127e636ceb9458f62d340b6c0e5a93.js",
+    "precache-manifest.76473190655f3dff10a279adbe6ef674.js": "/react-startup-website/precache-manifest.76473190655f3dff10a279adbe6ef674.js",
     "service-worker.js": "/react-startup-website/service-worker.js",
     "static/css/2.75c4ecca.chunk.css.map": "/react-startup-website/static/css/2.75c4ecca.chunk.css.map",
     "static/css/main.c29a6cdd.chunk.css.map": "/react-startup-website/static/css/main.c29a6cdd.chunk.css.map",
-    "static/js/2.6de24942.chunk.js.LICENSE.txt": "/react-startup-website/static/js/2.6de24942.chunk.js.LICENSE.txt",
+    "static/js/2.30c54b56.chunk.js.LICENSE.txt": "/react-startup-website/static/js/2.30c54b56.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react-startup-website/static/media/aboutimg.592ad7e7.jpg",
     "static/media/admaking.jpg": "/react-startup-website/static/media/admaking.8b07339d.jpg",
     "static/media/bannermaking.jpg": "/react-startup-website/static/media/bannermaking.04507997.jpg",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.971de796.js",
     "static/css/2.75c4ecca.chunk.css",
-    "static/js/2.6de24942.chunk.js",
+    "static/js/2.30c54b56.chunk.js",
     "static/css/main.c29a6cdd.chunk.css",
-    "static/js/main.dcce29dc.chunk.js"
+    "static/js/main.9a0f2885.chunk.js"
   ]
 }
