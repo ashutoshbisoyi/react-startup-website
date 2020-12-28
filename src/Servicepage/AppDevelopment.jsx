@@ -1,0 +1,36 @@
+import React from 'react';
+import ServicePageFrame from '../CustomComponents/ServicePageFrame';
+import FixedContact from '../CustomComponents/FixedContact';
+import AppDevelopmentData from '../Database/AppDevelopmentData';
+
+const AppDevelopment = () => {
+  return (
+    <>
+      <ServicePageFrame
+        h3='Your business in every mobile'
+        p='make your app today'
+        h1='App Development with HonourCreators'
+        linkName='Order Now'
+        linkAddress='/services'
+        heading='Why you need a'
+        headspan='App'
+        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum officiis reprehenderit et aliquam nisi nam consectetur corporis error, modi ullam fugiat necessitatibus quod ratione, magnam aut impedit, sint voluptatem sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt quo cupiditate ad, corporis, repellendus error totam a neque qui itaque iste, nisi quisquam omnis. Quo omnis accusantium facilis reprehenderit.'
+        benifitheader='Benifits of getting a logo from honourcreators:'
+        benifit1='Unique Identity'
+        benifit2='Customized Price'
+        benifit3='Three different formats delivery'
+        linkaddress1='/contact'
+        linkaddress2='/contact'
+        imgDivClasses='service-img app-dev'
+        sampleheader='Website'
+        database={AppDevelopmentData}
+        formdescription='make your business online today'
+        option1='₹4,999-₹9,999'
+        option2='₹10,000-₹50,000'
+        option3='Coustomised Price'
+      />
+      <FixedContact />
+    </>
+  );
+};
+export default AppDevelopment;
