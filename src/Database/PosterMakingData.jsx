@@ -1,4 +1,4 @@
-import admaking from '../images/admaking.jpg';
+import admaking from '../images/ServiceBanners/admaking.jpg';
 
 const PosterMakingData = [
   {

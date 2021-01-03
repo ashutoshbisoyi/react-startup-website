@@ -7,10 +7,10 @@ const CallUs = (props) => {
   return (
     <>
       <div className='fixed-contactbar'>
-        <a href='tel:9777111809' className='fixed-call'>
+        <a href='tel:9348025940' className='fixed-call'>
           Call Now <CallIcon className='ml-3' />
         </a>
-        <a href='mailto:ashutoshbisoyi205@gmial.com' className='fixed-mail'>
+        <a href='mailto:honourcreators@gmail.com' className='fixed-mail'>
           Mail Now <EmailIcon className='ml-3' />
         </a>
         <ScrollTop />

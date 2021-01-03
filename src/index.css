@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Ubuntu&family=Raleway:wght@400;600;700&display=swap');
 
 /****************** global styles *************************/
 * {
@@ -31,17 +31,17 @@ section {
 }
 .white-btn:hover {
   background-color: #fff;
-  color: #2d9ac5;
+  color: #000;
   font-weight: 500;
 }
 .regular-btn {
-  border: 1px solid #2d9ac5;
+  border: 1px solid #000;
   margin-right: 1em;
-  color: #2d9ac5;
+  color: #000;
   padding: 0.25em 1.5em;
 }
 .regular-btn:hover {
-  background-color: #2d9ac5;
+  background-color: #000;
   color: #fff;
   font-weight: 500;
 }
@@ -50,7 +50,7 @@ h1 {
 }
 h1 span {
   font-weight: bold;
-  color: #2d9ac5;
+  color: #000;
 }
 .my-center {
   display: flex;
@@ -63,11 +63,11 @@ h1 span {
   top: 0;
   background-color: #fff;
   z-index: 9999;
-  border-bottom: 2px solid #2d9ac5;
+  border-bottom: 2px solid #000;
 }
 /*----- navbar ----*/
 .active-navlink {
-  border-bottom: 1.3px solid #2d9ac5;
+  border-bottom: 1.3px solid #000;
   color: #000 !important;
 }
 .nav-item {
@@ -76,22 +76,40 @@ h1 span {
 .navbar-brand {
   font-size: 1.3em !important;
 }
+.navbar-brand .brand-name {
+  font-family: 'Ubuntu', sans-serif;
+}
 .navbar-brand img {
-  width: 10%;
+  width: 5%;
   margin-bottom: 5px;
   margin-right: 0.3em;
 }
 .nav-demo {
-  background-color: #2d9ac5;
-  color: #fff !important;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000 !important;
+
   border-radius: 17px;
   padding: 0.2em 1em !important;
   margin-left: 2em;
+  transition: all 2s ease;
+}
+.nav-demo:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff !important;
 }
 /*------------- header --------------*/
 .header {
-  background-color: #2d9ac5;
+  background-color: #000;
   color: #fff;
+}
+.header p {
+  color: #a5a5a5;
+}
+.header h1 {
+  color: #1ca9fb;
+  font-weight: 600;
 }
 .header-ul li {
   list-style: none;
@@ -112,8 +130,8 @@ h1 span {
 .testimonial hr,
 .service-sample hr,
 .about-hc hr {
-  border: 2px solid #2d9ac5;
-  background-color: #2d9ac5;
+  border: 2px solid #000;
+  background-color: #000;
   width: 80%;
   margin-bottom: 1em;
 }
@@ -125,7 +143,8 @@ h1 span {
 .testimonial h3 span,
 .service-sample h3 span,
 .about-hc span {
-  color: #2d9ac5;
+  color: #3579f3;
+  font-weight: bold;
 }
 .intro ul li {
   list-style: none;
@@ -158,6 +177,13 @@ h1 span {
   width: 80%;
   margin: auto;
   background-size: cover;
+}
+.ourservice-card .card-body h3 {
+  font-weight: 600;
+  color: rgb(46, 46, 46);
+}
+.ourservice-card .card-body p {
+  color: #585858;
 }
 .service-img.digital-marketing {
   background-image: url('./images/ServiceBanners/digitalmarketing-banner.jpg');
@@ -204,7 +230,7 @@ h1 span {
   margin-right: 20px;
 }
 .why h4 {
-  color: #2d9ac5;
+  color: #000;
 }
 
 .why-img-col {
@@ -213,7 +239,7 @@ h1 span {
 }
 /*------------- call us --------------*/
 .call-us {
-  background-color: #2d9ac5;
+  background-color: #000;
   color: #fff;
 }
 /*------------- testimonial --------------*/
@@ -232,16 +258,16 @@ h1 span {
   margin: auto;
 }
 .form button {
-  background-color: #2d9ac5;
+  background-color: #000;
   color: #fff;
 }
 .form button:hover {
-  background-color: #1f7ca1;
+  background-color: #000;
 }
 /*------------- footer --------------*/
 footer {
   padding: 50px 0 0 0;
-  background-color: #2d9ac5;
+  background-color: #000;
   color: #fff;
 }
 footer ul {
@@ -285,6 +311,10 @@ footer a:hover {
   font-size: 1.2em;
   background-color: #ececec;
 }
+.about-hc p {
+  text-align: justify;
+  padding-right: 0.5em;
+}
 .about-card {
   background-color: #fff;
   padding: 2em;
@@ -307,14 +337,14 @@ footer a:hover {
   border-left: none;
 }
 .fixed-call {
-  background-color: #1f7ca1;
+  background-color: #000;
 }
 .fixed-mail {
-  background-color: #1f7ca1;
+  background-color: #000;
 }
 .fixed-up,
 .fixed-up:hover {
-  background-color: #1f7ca1;
+  background-color: #000;
   color: #fff;
 }
 .fixed-call:hover,
@@ -331,11 +361,14 @@ footer a:hover {
   #navid {
     padding: 0;
   }
+  .navbar-brand {
+    width: min-content;
+  }
   .navbar-brand span {
     display: none;
   }
   .navbar-brand img {
-    width: 15%;
+    width: 1.5em;
   }
   h3 {
     font-size: 1.6em !important;

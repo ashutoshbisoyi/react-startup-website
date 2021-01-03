@@ -11,7 +11,7 @@ const About = () => {
     <>
       <section className='container-fluid header my-center text-center'>
         <header>
-          <p>who are honourcreators ?</p>
+          <p>Who are HonourCreators ?</p>
           <h1 className='mb-4'>About Us - Everything you want to know</h1>
           <NavLink to='./contact' className='white-btn'>
             Contact Us
@@ -27,8 +27,8 @@ const About = () => {
             </h3>
             <hr />
             <p>
-              HonourCreators is established in the year of 2020, holding a
-              tagline
+              <strong>HonourCreators</strong> is established in the year of
+              2020, holding a tagline
               <strong> ' Your Vision, Our Creation '</strong>. It is a technical
               organization in the field of digital communication and content
               creation, giving importance to customer satisfaction with the help

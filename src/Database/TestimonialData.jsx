@@ -1,9 +1,9 @@
-import ninthsem from '../images/ninthsem.png';
-import ourvoix from '../images/ourvoix.png';
-import inexttechnology from '../images/inexttechnology.png';
-import haneulpublication from '../images/haneulpublication.png';
-import rajeshvision from '../images/rajeshvision.png';
-import voyagers from '../images/voyagers.png';
+import ninthsem from '../images/clients/ninthsem.png';
+import ourvoix from '../images/clients/ourvoix.png';
+import inexttechnology from '../images/clients/inexttechnology.png';
+import haneulpublication from '../images/clients/haneulpublication.png';
+import rajeshvision from '../images/clients/rajeshvision.png';
+import voyagers from '../images/clients/voyagers.png';
 
 const TestimonialData = [
   {

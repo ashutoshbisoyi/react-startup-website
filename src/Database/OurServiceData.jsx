@@ -11,22 +11,13 @@ import graphicsdesgining from '../images/ServiceBanners/graphicsdesgining.jpg';
 
 const OurServiceData = [
   {
-    imgsrc: logodesgining,
-    p: 'Every startup needs a logo',
-    heading: 'Logo Designing',
+    imgsrc: appdevelopment,
+    p: 'Your business in customers mobile',
+    heading: 'App Development',
     description:
       'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
 
-    linkaddress: '/services/logodesigning',
-  },
-  {
-    imgsrc: digitalmarketing,
-    p: 'We help you to grow',
-    heading: 'Digital Marketing',
-    description:
-      'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
-
-    linkaddress: '/services/digitalmarketing',
+    linkaddress: '/services/appdevelopment',
   },
   {
     imgsrc: webdevelopment,
@@ -38,13 +29,31 @@ const OurServiceData = [
     linkaddress: '/services/webdevelopment',
   },
   {
-    imgsrc: appdevelopment,
-    p: 'Your business in customers mobile',
-    heading: 'App Development',
+    imgsrc: graphicsdesgining,
+    p: 'Graphics that blow your mind',
+    heading: 'Graphics Designing',
     description:
       'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
 
-    linkaddress: '/services/appdevelopment',
+    linkaddress: '/services/graphicsdesigning',
+  },
+  {
+    imgsrc: businessconsulting,
+    p: 'A good plan makes you grow',
+    heading: 'Business Consulting',
+    description:
+      'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
+
+    linkaddress: '/services/businessconsulting',
+  },
+  {
+    imgsrc: digitalmarketing,
+    p: 'We help you to grow',
+    heading: 'Digital Marketing',
+    description:
+      'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
+
+    linkaddress: '/services/digitalmarketing',
   },
   {
     imgsrc: admaking,
@@ -54,16 +63,6 @@ const OurServiceData = [
       'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
 
     linkaddress: '/services/admaking',
-  },
-
-  {
-    imgsrc: businessconsulting,
-    p: 'A good plan makes you grow',
-    heading: 'Business Consulting',
-    description:
-      'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
-
-    linkaddress: '/services/businessconsulting',
   },
   {
     imgsrc: eventcapturing,
@@ -84,6 +83,16 @@ const OurServiceData = [
     linkaddress: '/services/customprinting',
   },
   // {
+  //   imgsrc: logodesgining,
+  //   p: 'Every startup needs a logo',
+  //   heading: 'Logo Designing',
+  //   description:
+  //     'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
+
+  //   linkaddress: '/services/logodesigning',
+  // },
+
+  // {
   //   imgsrc: bannermaking,
   //   p: 'Posters that tells your story',
   //   heading: 'Poster Making',
@@ -92,15 +101,6 @@ const OurServiceData = [
 
   //   linkaddress: '/services/postermaking',
   // },
-  {
-    imgsrc: graphicsdesgining,
-    p: 'Graphics that blow your mind',
-    heading: 'Graphics Designing',
-    description:
-      'Timely and professional support. HonourCreators offers the quality of support and service without any additional cost. They are fast and reliable. They provide tech support on 24/7 livechat. Its very helpful in crucial situations....  ',
-
-    linkaddress: '/services/graphicsdesigning',
-  },
 ];
 
 export default OurServiceData;

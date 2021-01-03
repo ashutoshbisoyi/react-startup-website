@@ -16,7 +16,7 @@ const Home = () => {
       <Header
         h3='New Startup! Want to grow digitally?'
         p='meet your new partner'
-        h1='HonourCreators :) Your digital marketing partner'
+        h1='HonourCreators :) Your digital partner'
         icon1={<CallIcon />}
         li1='+91 9777111809'
         icon2={<LanguageIcon />}
