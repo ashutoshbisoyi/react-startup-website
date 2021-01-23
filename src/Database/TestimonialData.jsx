@@ -4,6 +4,12 @@ import inexttechnology from '../images/clients/inexttechnology.png';
 import haneulpublication from '../images/clients/haneulpublication.png';
 import rajeshvision from '../images/clients/rajeshvision.png';
 import voyagers from '../images/clients/voyagers.png';
+import mom from '../images/clients/mom.png';
+import badabusiness from '../images/clients/badabusiness.png';
+import marble from '../images/clients/marble.png';
+import news from '../images/clients/news.png';
+import tashukeru from '../images/clients/tashukeru.png';
+import ada from '../images/clients/ada.png';
 
 const TestimonialData = [
   {
@@ -41,7 +47,37 @@ const TestimonialData = [
     comment:
       'We got a chance to work with HONOUR CREATORS for video editing and they rocked their role and did the work superbly. We find them as a hardworking team who will put an extra effort to make up for the work assigned. The team is group of young and ambitious individuals who are passionate to learn new things and improve themselves. We wish them all the best for future endeavors!!',
     imgsrc: voyagers,
-    name: 'Eternal Voyagers, USA',
+    name: 'Eternal Voyagers',
+  },
+  {
+    comment: '',
+    imgsrc: mom,
+    name: "Mom's Electrical",
+  },
+  {
+    comment: '',
+    imgsrc: badabusiness,
+    name: 'BadaBusiness Odisha',
+  },
+  {
+    comment: '',
+    imgsrc: marble,
+    name: 'Bijaya Marbels',
+  },
+  {
+    comment: '',
+    imgsrc: news,
+    name: 'News Odisha 24',
+  },
+  {
+    comment: '',
+    imgsrc: tashukeru,
+    name: 'Tashukeru',
+  },
+  {
+    comment: '',
+    imgsrc: ada,
+    name: 'Ada Enterprices',
   },
 ];
 

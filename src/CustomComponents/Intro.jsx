@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import clientimg from '../images/clientimg.webp';
+import introImg from '../images/introImg.svg';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 
@@ -40,7 +40,7 @@ const Intro = () => {
         </div>
         <div className='col-lg-6 col-md-12'>
           <figure>
-            <img src={clientimg} className='img-fluid' />
+            <img src={introImg} className='img-fluid' />
           </figure>
         </div>
       </section>

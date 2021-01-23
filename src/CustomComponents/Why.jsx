@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import whyimg from '../images/whyimg.jpg';
 import customprice from '../images/customprice.png';
 import time from '../images/time.png';
 import quality from '../images/quality.png';

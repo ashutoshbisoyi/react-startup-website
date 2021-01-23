@@ -234,8 +234,9 @@ h1 span {
 }
 
 .why-img-col {
-  background-image: url(./images/whyimg.jpg);
+  background-image: url(./images/whyimg.svg);
   background-size: cover;
+  background-position: center;
 }
 /*------------- call us --------------*/
 .call-us {
@@ -245,9 +246,13 @@ h1 span {
 /*------------- testimonial --------------*/
 .testimonial-card {
   background: #ffffff;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
   padding: 2em;
   height: 100%;
+  margin: 1em 0;
+}
+.testimonial-card h5 {
+  height: 300px;
 }
 /*------------- form --------------*/
 .form {
@@ -311,9 +316,17 @@ footer a:hover {
   font-size: 1.2em;
   background-color: #ececec;
 }
-.about-hc p {
+.about-hc .about-text {
   text-align: justify;
   padding-right: 0.5em;
+}
+.about-hc .img-col {
+  display: flex;
+  align-items: center;
+}
+.about-hc .about-img {
+  width: 90%;
+  margin: auto;
 }
 .about-card {
   background-color: #fff;
@@ -398,5 +411,17 @@ footer a:hover {
   .form form {
     width: 90%;
     margin: auto;
+  }
+  .testimonial {
+    padding: 2em 0 0 0;
+    margin-bottom: 1em;
+  }
+  .testimonial-card {
+    padding: 2em 1em;
+    height: 100%;
+    margin: 0;
+  }
+  .testimonial-card h5 {
+    height: auto;
   }
 }

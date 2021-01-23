@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import honourcreatorsimg from '../images/honourcreatorsimg.png';
+import aboutImg from '../images/aboutImg.svg';
 import ClientCard from '../CustomComponents/ClientCard';
 import TestimonialData from '../Database/TestimonialData';
 import Footer from '../CustomComponents/Footer';
@@ -21,15 +21,14 @@ const About = () => {
       <div className='about-fixed-image'></div>
       <section className='about-hc'>
         <div className='row container mx-auto'>
-          <div className='col-md-10'>
+          <div className='col-md-8'>
             <h3>
               About <span>HonourCreators</span>
             </h3>
             <hr />
-            <p>
-              <strong>HonourCreators</strong> is established in the year of
-              2020, holding a tagline
-              <strong> ' Your Vision, Our Creation '</strong>. It is a technical
+            <div className='about-text'>
+              HonourCreators is established in the year of 2020, holding a
+              tagline ' Your Vision, Our Creation '. It is a technical
               organization in the field of digital communication and content
               creation, giving importance to customer satisfaction with the help
               of latest Technologies, Research, Innovation and
@@ -42,15 +41,36 @@ const About = () => {
               requires extra time and resources on our end. We’re firm believers
               that the success of our clients is truly our success; we’d be
               nowhere without them..
-            </p>
+            </div>
           </div>
-          <div className='col-md-2 my-center'>
+          <div className='col-md-4 img-col'>
             <img
-              src={honourcreatorsimg}
-              className='img-fluid'
+              src={aboutImg}
+              className='img-fluid about-img'
               alt='honourcreators'
             />
           </div>
+        </div>
+        <div className='container text-align-justify'>
+          <p>
+            <u>
+              <strong>
+                <center>
+                  "Past which Dreams, Work for Today, Happens Tomorrow."
+                </center>
+              </strong>
+            </u>
+          </p>
+          <p>
+            We work upon the various type of Digital Products which are directly
+            related in elevating your Business, Memories, Dream, Faith, and
+            Belief of sustaining on this current Digital Market. We are
+            comprising of many Developers Hard work, Smart work, and business
+            enthusiasts who will constantly lead your Cherishing Dream come
+            true. "Your Vision, Our Creation" is the only objective of our
+            community. We put creativity in our work which is been visualized by
+            you.
+          </p>
         </div>
       </section>
       <section className='container'>
